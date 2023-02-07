@@ -1,29 +1,36 @@
+
+
 * {
     box-sizing: border-box;
     font-size: 62.5%;
 }
 
+/* HEADER WITH A NAVBAR AND 3 LINKS THAT DIRECT THE READER 
+FROM LINK TO CONTENT  */
+
 header {
     margin-bottom: 1px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     width: 100%;
     height: 100%;
     padding: 5px;
-    background-color: lightskyblue;
+    background-color: lightcoral;
     border: 2px solid black;
+    justify-content: space-between;
 }
 
 nav {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 2rem;
-    background-color: lightpink;
+    background-color: lightgreen;
 }
 
 #buttons {
-    background-color: lightpink;
+    background-color: lightgreen;
     font-size: 2rem;
 }
+
+/* ***************************************************** */
 
 main {
     display: flex;
@@ -42,28 +49,33 @@ section {
 
 section h2 {
     font-size: 2rem;
+    background-color: lightblue;
 }
 
-.flex-row{
+.flex-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
-.flex-column{
+.flex-column {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.flex-justify-center {
     justify-content: center;
 }
 
+.flex-align-center {
+    align-content: center;
+}
 
 .text {
     font-size: 1.5rem;
     width: 65%;
     background-color: azure;
 }
-
 
 .feature {
     align-self: center;
@@ -88,8 +100,6 @@ section h2 {
     text-align: center;
 }
 
-
-
 footer {
     margin-top: 1px;
     display: flex;
@@ -97,26 +107,28 @@ footer {
     width: 100%;
     height: 100%;
     padding: 5px;
-    background-color: lightskyblue;
+    background-color: lightcoral;
     border: 2px solid black;
 }
 
 #footer-text{
     font-size: 2rem;
-    background-color: lightpink;
+    background-color: lightgreen;
 }
 
-
-
-
-
-
+#contact-me {
+    list-style-type: none;
+}
 
 #pic {
     width: 150px;
     height: 150px;
     background-color: lightslategray;
     border: 2px solid black;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    line-height: 150px;
 }
 
 .box {
