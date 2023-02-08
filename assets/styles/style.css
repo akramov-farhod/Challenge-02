@@ -1,138 +1,158 @@
-
-
 * {
-    box-sizing: border-box;
-    font-size: 62.5%;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
 }
 
 /* HEADER WITH A NAVBAR AND 3 LINKS THAT DIRECT THE READER 
 FROM LINK TO CONTENT  */
 
 header {
-    margin-bottom: 1px;
-    width: 100%;
-    height: 100%;
-    padding: 5px;
-    background-color: lightcoral;
-    border: 2px solid black;
-    justify-content: space-between;
+  margin-bottom: 1px;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  justify-content: space-between;
 }
 
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 2rem;
-    background-color: lightgreen;
-}
-
-#buttons {
-    background-color: lightgreen;
-    font-size: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
 }
 
 /* ***************************************************** */
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    background-color: lightgray;
-    border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  background-color: lightgray;
+  /* border: 2px solid black; */
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* background-color: lightgoldenrodyellow; */
 }
 
 section h2 {
-    font-size: 2rem;
-    background-color: lightblue;
+  font-size: 2rem;
+  background-color: lightblue;
 }
 
 .flex-row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .flex-justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .flex-align-center {
-    align-content: center;
+  align-content: center;
 }
 
 .text {
-    font-size: 1.5rem;
-    width: 65%;
-    background-color: azure;
+  font-size: 1.5rem;
+  width: 65%;
+  background-color: azure;
 }
 
 .feature {
-    align-self: center;
-    width: 95%;
-    height: 20px;
-    margin: 1px;
-    padding: 1px;
-    background-color: lightseagreen;
-    border: 2px solid darkgreen;
-    color: aliceblue;
-    text-align: center;
+  align-self: center;
+  width: 95%;
+  height: 20px;
+  margin: 1px;
+  padding: 1px;
+  background-color: lightseagreen;
+  border: 2px solid darkgreen;
+  color: aliceblue;
+  text-align: center;
 }
 
 .card {
-    width: 30%;
-    height: 20px;
-    margin: 1px;
-    padding: 1px;
-    background-color: lightseagreen;
-    border: 2px solid darkgreen;
-    color: aliceblue;
-    text-align: center;
+  width: 30%;
+  height: 20px;
+  margin: 1px;
+  padding: 1px;
+  background-color: lightseagreen;
+  border: 2px solid darkgreen;
+  color: aliceblue;
+  text-align: center;
 }
 
 footer {
-    margin-top: 1px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-    padding: 5px;
-    background-color: lightcoral;
-    border: 2px solid black;
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  background-color: lightcoral;
+  border: 2px solid black;
 }
 
-#footer-text{
-    font-size: 2rem;
-    background-color: lightgreen;
+#footer-text {
+  font-size: 2rem;
+  /* background-color: lightgreen; */
 }
 
-#contact-me {
-    list-style-type: none;
+#no-dot-list {
+  list-style-type: none;
 }
 
 #pic {
-    width: 150px;
-    height: 150px;
-    background-color: lightslategray;
-    border: 2px solid black;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    line-height: 150px;
+  width: 150px;
+  height: 150px;
+  background-color: lightslategray;
+  border: 2px solid black;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  line-height: 150px;
 }
 
 .box {
-    padding: 5px;
-    margin: 5px;
-    border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+  /* border: 2px solid black; */
+}
+
+/* 1
+2
+3
+4 */
+
+/*TESTING COLOR PALETTE*/
+main {
+  background-color: lightskyblue;
+}
+
+main h2 {
+  color: #ecb365;
+  background-color: #041c32;
+}
+
+section {
+}
+
+header {
+  color: #ecb365;
+  background-color: #041c32;
+}
+
+footer {
+  color: #ecb365;
+  background-color: #041c32;
 }
