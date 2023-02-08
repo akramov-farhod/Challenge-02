@@ -1,3 +1,5 @@
+/* ENTIRE DOCUMENT FORMATTING  */
+
 * {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -14,36 +16,73 @@ header {
   height: 100%;
   padding: 5px;
   justify-content: space-between;
+  color: #ecb365;
+  background-color: #041c32;
+}
+
+header a {
+  padding-right: 15px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-right: 2px solid #ecb365;
+  color: #ecb365;
+}
+
+header a:hover {
+  padding: 10px;
+  border: 2px solid #ecb365;
 }
 
 nav {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  font-size: 2rem;
+  border-top: 2px solid #ecb365;
+  border-bottom: 2px solid #ecb365;
+}
+
+header div ul button {
+  font-size: 1.5rem;
+}
+
+/* ***************************************************** */
+
+/* MAIN ELEMENT FORMATTING  */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: skyblue;
+  background: linear-gradient(
+    #041c32 0%,
+    lightskyblue 10%,
+    lightskyblue 90%,
+    #041c32 100%
+  );
+}
+
+main h2 {
+  color: #ecb365;
+  background-color: #041c32;
+  border-top: 2px solid #ecb365;
+  border-left: 2px solid #ecb365;
+}
+/* ***************************************************** */
+
+/* SECTION ELEMENT FORMATTING  */
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+section h2 {
   font-size: 2rem;
 }
 
 /* ***************************************************** */
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  background-color: lightgray;
-  /* border: 2px solid black; */
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  /* background-color: lightgoldenrodyellow; */
-}
-
-section h2 {
-  font-size: 2rem;
-  background-color: lightblue;
-}
-
+/* FLEX CLASSES  */
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -59,16 +98,29 @@ section h2 {
   justify-content: center;
 }
 
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
+.flex-justify-left {
+  justify-content: left;
+}
+
 .flex-align-center {
   align-content: center;
 }
+/* ***************************************************** */
 
-.text {
-  font-size: 1.5rem;
-  width: 65%;
-  background-color: azure;
+/* SECTION FORMATTING  */
+.border {
+  border: 2px dashed #041c32;
+  border-radius: 10px;
+  background-color: rgb(205, 235, 255);
 }
 
+/* ***************************************************** */
+
+/* FEATURED CARD  */
 .feature {
   align-self: center;
   width: 95%;
@@ -80,7 +132,9 @@ section h2 {
   color: aliceblue;
   text-align: center;
 }
+/* ***************************************************** */
 
+/* OTHER CARDS  */
 .card {
   width: 30%;
   height: 20px;
@@ -91,7 +145,40 @@ section h2 {
   color: aliceblue;
   text-align: center;
 }
+/* ***************************************************** */
 
+/* CONTACT ME __STYLING  */
+.button {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: lightslategray;
+  text-align: center;
+}
+
+.button a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.button:hover {
+  background-color: #ecb365;
+}
+
+.button a:hover {
+  color: black;
+}
+
+#contact_me ul li {
+  font-size: 2rem;
+}
+/* ***************************************************** */
+
+/* FOOTER STYLING  */
 footer {
   margin-top: 1px;
   display: flex;
@@ -99,60 +186,53 @@ footer {
   width: 100%;
   height: 100%;
   padding: 5px;
-  background-color: lightcoral;
-  border: 2px solid black;
+  color: #ecb365;
+  background-color: #041c32;
 }
 
 #footer-text {
   font-size: 2rem;
-  /* background-color: lightgreen; */
+}
+
+/* ***************************************************** */
+
+/* OTHER USEFUL CSS WITHOUT ORDER PRIORITY  */
+
+.bold-text {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 #no-dot-list {
   list-style-type: none;
 }
 
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 2rem;
+  width: 70%;
+}
+
 #pic {
-  width: 150px;
-  height: 150px;
+  margin: 5px;
+  width: 200px;
+  height: 200px;
   background-color: lightslategray;
   border: 2px solid black;
+  border-radius: 10px;
   font-size: 2rem;
   color: white;
   text-align: center;
   line-height: 150px;
 }
 
+/* VERY CRUCIAL PART OF THIS DOCUMENT
+ENABLE BORDER TO SEE PAGE SKELETON LAYOUT
+=====MUST BE AT THE END OF ALL CSS CODE TO WORK===== */
 .box {
   padding: 5px;
   margin: 5px;
-  /* border: 2px solid black; */
-}
-
-/* 1
-2
-3
-4 */
-
-/*TESTING COLOR PALETTE*/
-main {
-  background-color: lightskyblue;
-}
-
-main h2 {
-  color: #ecb365;
-  background-color: #041c32;
-}
-
-section {
-}
-
-header {
-  color: #ecb365;
-  background-color: #041c32;
-}
-
-footer {
-  color: #ecb365;
-  background-color: #041c32;
+  /* border: 2px solid red; */
 }
