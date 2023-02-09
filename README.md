@@ -4,7 +4,8 @@ Description:
   
 Sreenshot:
   I have no idea how to insert images into README.md
-  so instead please accept this ==***REALLY COOL IMAGE OF MY PROJECT*** <3
+  so instead please accept this
+  }====> ***REALLY COOL IMAGE OF MY PROJECT*** <===={
   
 Deployed Page:
   https://akramov-farhod.github.io/Challenge-02/
