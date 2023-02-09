@@ -4,7 +4,7 @@ Description:
   
 Sreenshot:
   HAVE NO IDEA HOW TO INSERT IMAGES INTO A README.md 
-  PLEASE ACCEPT THIS **REALLY COOL IMAGE OF MY PROJECT**
+  PLEASE ACCEPT THIS *****REALLY COOL IMAGE OF MY PROJECT*****
   
 Deployed Page:
   https://akramov-farhod.github.io/Challenge-02/
