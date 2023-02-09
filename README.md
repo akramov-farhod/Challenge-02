@@ -3,8 +3,8 @@ Description:
   In this Project we will be creating our portfolio using HTML and CSS only!
   
 Sreenshot:
-  HAVE NO IDEA HOW TO INSERT IMAGES INTO A README.md 
-  PLEASE ACCEPT THIS *****REALLY COOL IMAGE OF MY PROJECT*****
+  I have no idea how to insert images into README.md
+  so instead please accept this ==***REALLY COOL IMAGE OF MY PROJECT*** <3
   
 Deployed Page:
   https://akramov-farhod.github.io/Challenge-02/
