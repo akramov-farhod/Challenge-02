@@ -152,6 +152,21 @@ section h2 {
 /* ***************************************************** */
 
 /* FEATURED CARD  */
+#feature1 {
+  background-image: url("../images/feature-img-2.jpeg");
+}
+
+#feature2 {
+  background-image: url("../images/feature-img.jpeg");
+}
+
+#feature1:hover,
+#feature2:hover {
+  background-image: none;
+  background-color: #041c32;
+  border: 4px solid #ecb365;
+}
+
 .feature {
   align-self: center;
   width: 95%;
@@ -160,7 +175,6 @@ section h2 {
   padding: 1px;
   box-shadow: inset 0 0 5px lightskyblue;
   background-color: #041c32;
-  background-image: url("../images/feature-img.jpeg");
   background-size: cover;
   border: 4px solid #041c32;
   color: aliceblue;
@@ -169,12 +183,6 @@ section h2 {
 
 .feature h2 {
   font-size: 3rem;
-}
-
-.feature:hover {
-  background-image: none;
-  background-color: #041c32;
-  border: 4px solid #ecb365;
 }
 
 .feature:hover #title {
