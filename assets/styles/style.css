@@ -152,6 +152,10 @@ section h2 {
 /* ***************************************************** */
 
 /* FEATURED CARD  */
+#feature3 {
+  background-image: url("../images/feature-img-3.jpeg");
+}
+
 #feature1 {
   background-image: url("../images/feature-img-2.jpeg");
 }
@@ -161,7 +165,8 @@ section h2 {
 }
 
 #feature1:hover,
-#feature2:hover {
+#feature2:hover,
+#feature3:hover {
   background-image: none;
   background-color: #041c32;
   border: 4px solid #ecb365;
